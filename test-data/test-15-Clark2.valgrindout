@@ -1,0 +1,22 @@
+==87543== Memcheck, a memory error detector
+==87543== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87543== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==87543== Command: ../bl_client test-15-serv Clark2
+==87543== 
+-- Clark2 JOINED --
+[Clark2] : Yup - super hearing
+-- Lois1 DEPARTED --
+[Clark2] : Fortress of solitude
+-- Bruce3 JOINED --
+[Bruce3] : From the shadows!
+[Bruce3] : Kryptonite!
+Clark2>> 
+==87543== 
+==87543== HEAP SUMMARY:
+==87543==     in use at exit: 0 bytes in 0 blocks
+==87543==   total heap usage: 8 allocs, 8 frees, 6,334 bytes allocated
+==87543== 
+==87543== All heap blocks were freed -- no leaks are possible
+==87543== 
+==87543== For counts of detected and suppressed errors, rerun with: -v
+==87543== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

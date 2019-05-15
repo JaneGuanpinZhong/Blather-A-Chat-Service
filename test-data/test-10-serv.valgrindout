@@ -1,0 +1,76 @@
+==86995== Memcheck, a memory error detector
+==86995== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==86995== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==86995== Command: ../bl_server test-10-serv
+==86995== 
+Select failed!
+: Interrupted system call
+server_start()
+server_start(): end
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+Hello
+broadcast Hello
+Things SHOULD work
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+Yo
+broadcast Yo
+Things SHOULD work
+check source done
+bye
+broadcast bye
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+check source done
+Ugh
+broadcast Ugh
+Things SHOULD work
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+back
+broadcast back
+Things SHOULD work
+check source done
+great
+broadcast great
+Things SHOULD work
+check source done
+gone
+broadcast gone
+Things SHOULD work
+check source done
+ack
+broadcast ack
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+check source done
+alone
+broadcast alone
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+broadcast 
+==86995== 
+==86995== HEAP SUMMARY:
+==86995==     in use at exit: 0 bytes in 0 blocks
+==86995==   total heap usage: 1 allocs, 1 frees, 8,192 bytes allocated
+==86995== 
+==86995== All heap blocks were freed -- no leaks are possible
+==86995== 
+==86995== For counts of detected and suppressed errors, rerun with: -v
+==86995== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

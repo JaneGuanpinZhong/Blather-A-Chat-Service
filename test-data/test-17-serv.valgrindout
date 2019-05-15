@@ -1,0 +1,22 @@
+==87788== Memcheck, a memory error detector
+==87788== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87788== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==87788== Command: ../bl_server test-17-serv
+==87788== 
+Select failed!
+: Interrupted system call
+server_start()
+server_start(): end
+check source done
+broadcast 
+server_handle_join(): done
+broadcast 
+==87788== 
+==87788== HEAP SUMMARY:
+==87788==     in use at exit: 0 bytes in 0 blocks
+==87788==   total heap usage: 1 allocs, 1 frees, 8,192 bytes allocated
+==87788== 
+==87788== All heap blocks were freed -- no leaks are possible
+==87788== 
+==87788== For counts of detected and suppressed errors, rerun with: -v
+==87788== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

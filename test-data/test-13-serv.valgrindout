@@ -1,0 +1,64 @@
+==87272== Memcheck, a memory error detector
+==87272== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87272== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==87272== Command: ../bl_server test-13-serv
+==87272== 
+Select failed!
+: Interrupted system call
+server_start()
+server_start(): end
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+Batman!
+broadcast Batman!
+Things SHOULD work
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+Superman!
+broadcast Superman!
+Things SHOULD work
+check source done
+Reporter?
+broadcast Reporter?
+Things SHOULD work
+check source done
+Ha
+broadcast Ha
+Things SHOULD work
+check source done
+He he
+broadcast He he
+Things SHOULD work
+check source done
+bite me
+broadcast bite me
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+broadcast 
+==87272== 
+==87272== HEAP SUMMARY:
+==87272==     in use at exit: 0 bytes in 0 blocks
+==87272==   total heap usage: 1 allocs, 1 frees, 8,192 bytes allocated
+==87272== 
+==87272== All heap blocks were freed -- no leaks are possible
+==87272== 
+==87272== For counts of detected and suppressed errors, rerun with: -v
+==87272== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

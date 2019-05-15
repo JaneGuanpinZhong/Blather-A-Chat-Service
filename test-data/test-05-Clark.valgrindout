@@ -1,0 +1,17 @@
+==86659== Memcheck, a memory error detector
+==86659== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==86659== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==86659== Command: ../bl_client test-05-serv Clark
+==86659== 
+-- Clark JOINED --
+-- Bruce DEPARTED --
+Clark>> 
+==86659== 
+==86659== HEAP SUMMARY:
+==86659==     in use at exit: 0 bytes in 0 blocks
+==86659==   total heap usage: 8 allocs, 8 frees, 6,334 bytes allocated
+==86659== 
+==86659== All heap blocks were freed -- no leaks are possible
+==86659== 
+==86659== For counts of detected and suppressed errors, rerun with: -v
+==86659== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

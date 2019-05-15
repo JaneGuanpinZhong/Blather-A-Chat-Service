@@ -1,0 +1,84 @@
+==87355== Memcheck, a memory error detector
+==87355== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87355== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==87355== Command: ../bl_server test-14-serv
+==87355== 
+Select failed!
+: Interrupted system call
+server_start()
+server_start(): end
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+Superman!
+broadcast Superman!
+Things SHOULD work
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+Hey!
+broadcast Hey!
+Things SHOULD work
+check source done
+Superman!
+broadcast Superman!
+Things SHOULD work
+check source done
+Batman!
+broadcast Batman!
+Things SHOULD work
+check source done
+broadcast 
+server_handle_join(): done
+check source done
+Superman!
+broadcast Superman!
+Things SHOULD work
+check source done
+Not again
+broadcast Not again
+Things SHOULD work
+check source done
+Vanish!
+broadcast Vanish!
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+check source done
+He he
+broadcast He he
+Things SHOULD work
+check source done
+Lame
+broadcast Lame
+Things SHOULD work
+check source done
+Yup
+broadcast Yup
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+check source done
+Fortress of solitude
+broadcast Fortress of solitude
+Things SHOULD work
+check source done
+
+broadcast 
+Things SHOULD work
+broadcast 
+==87355== 
+==87355== HEAP SUMMARY:
+==87355==     in use at exit: 0 bytes in 0 blocks
+==87355==   total heap usage: 1 allocs, 1 frees, 8,192 bytes allocated
+==87355== 
+==87355== All heap blocks were freed -- no leaks are possible
+==87355== 
+==87355== For counts of detected and suppressed errors, rerun with: -v
+==87355== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
